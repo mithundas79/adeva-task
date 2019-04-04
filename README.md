@@ -74,9 +74,9 @@ gulp
 
 ### Production Environment
 
-For Production Environment you can use Docker or YARN method as written below
+For Production Environment you can use either use **Docker** or **YARN** method as written below
 
-#### Docker
+#### Instruction For Docker
 
 ##### System Requirement
 Get your docker from https://www.docker.com/products/docker-engine
@@ -121,7 +121,12 @@ The steps assumes you have installed docker successfully
 docker-compose up 
 ``` 
 
-#### YARN
+#### Instruction For YARN
+
+
+```sh 
+git clone git@github.com:mithundas79/adeva-task.git 
+```
 
 ```sh
 # compile to ES5
