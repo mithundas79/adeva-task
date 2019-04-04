@@ -13,6 +13,7 @@ This is A Test Api based on the docs provided by Adeva.
 * Node version >=8.15.0
 * NPM version >=6.4.1
 * Yarn version >=1.13.0
+* Mongodb version >=4.0.1 (Please change **env/development.js** - Not required if using docker)
 
 Clone the repo: ```sh git clone git@github.com:mithundas79/adeva-task.git && cd adeva-task ```
 
