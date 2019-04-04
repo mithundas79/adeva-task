@@ -15,7 +15,10 @@ This is A Test Api based on the docs provided by Adeva.
 * Yarn version >=1.13.0
 * Mongodb version >=4.0.1 (Please change **env/development.js** - Not required if using docker)
 
-Clone the repo: ```sh git clone git@github.com:mithundas79/adeva-task.git && cd adeva-task ```
+#### Clone the repo: 
+```sh 
+git clone git@github.com:mithundas79/adeva-task.git && cd adeva-task 
+```
 
 #### Install dependencies:
 ```sh
@@ -89,8 +92,14 @@ We will need following
 * Docker Engine Community Server
 
 
-##### Installation
-* Clone the repo: ```sh git clone git@github.com:mithundas79/adeva-task.git && cd adeva-task ```
+##### Clone the repo: 
+```sh 
+git clone git@github.com:mithundas79/adeva-task.git && cd adeva-task 
+```
+
+
+##### Docker details
+
 * Dockerfile -> We are starting docker virtual server by instructions in Dockerfile 
 * Dockerfile script installs everything about our project
     * Installs the latest version of Node which is 11
@@ -106,7 +115,11 @@ We will need following
 
 
 ##### Start Server 
-Use ```sh docker-compose up ``` comment to clone & install related docker repos from dockerhub 
+The steps assumes you have installed docker successfully
+
+```sh 
+docker-compose up 
+``` 
 
 #### YARN
 
